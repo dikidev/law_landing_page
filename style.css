@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+:root {
+  --primary-color: #2b2922;
+  --secondary-color: #9c8b35;
+  --third-color: #3a382e;
+  --font-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-color);
+  height: 100vh;
+  color: var(--font-color);
+}
+
+section {
+  width: 90vw;
+  margin: auto;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.logo {
+  height: 2.3rem;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+
+li{
+  list-style: none;
+  margin: 20px;
+  color: var(--font-color);
+}
+
+.list {
+  margin-right: -2rem;
+}
+
+.button-small {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: .4rem .9rem;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+}
+
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  /* border: red solid 2px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.hero-heading {
+  /* border: red solid 2px; */
+  width: 100%;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.hero-body {
+  /* border: red solid 2px; */
+  padding: 2rem 3rem;
+  width: 50%;
+  line-height: 1.75em;
+}
+
+.law {
+  width: 1200px;
+  height: 620px;
+  background-image: url(./assets/justice.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+
+/* ------------------------------ */
+/* ---------- FOOTER ------------ */
+/* ------------------------------ */
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-large-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--secondary-color);
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+
+
+.button-large-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--secondary-color) solid 2px;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  width: 3rem;
+  height: 3rem;
+}
